@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "SystemInfo",
+    "version": "1.0",
+    "description": "Show system info.",
+    "browser_action": {
+        "default_title": "系统信息",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "system.cpu",
+        "system.memory",
+        "system.storage"
+    ]
+}

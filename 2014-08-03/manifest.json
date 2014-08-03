@@ -1,0 +1,17 @@
+{
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "manifest_version": 2,
+    "name": "Performance Mointor",
+    "version": "1.0",
+    "description": "Monitor the performance of current OS, includes CPU and memory status info.",
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "permissions": ["system.cpu", "system.memory"]
+}

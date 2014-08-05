@@ -1,0 +1,14 @@
+{
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "manifest_version": 2,
+    "name": "Directory manipulate",
+    "version": "1.0",
+    "description": "Create/delete the directories or files",
+    "permissions": [
+        {"fileSystem": ["write", "directory"]}
+    ]
+}

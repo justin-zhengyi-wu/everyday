@@ -1,0 +1,14 @@
+{
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "manifest_version": 2,
+    "name": "Copy/move folder/file",
+    "version": "1.0",
+    "description": "Copy or move the folder or file",
+    "permissions": [
+        {"fileSystem": ["write", "directory"]}
+    ]
+}

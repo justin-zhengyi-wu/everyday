@@ -1,0 +1,16 @@
+#result {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -400px;
+    border: 1px solid #AAA;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 30px;
+    padding: 50px 10px 0 50px;
+}

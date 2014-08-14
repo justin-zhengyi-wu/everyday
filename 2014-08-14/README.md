@@ -14,6 +14,7 @@ mkdir 1
 cd 1
 ```
 Put your codes from STEP-2 into this directory, add new posts under `/posts` with markdown formats, submit them.
+
 6,  Visit your [App](http://simpleblog.sinaapp.com/), that's it!
 
 

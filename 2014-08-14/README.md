@@ -1,12 +1,16 @@
 #### Use Justwriting, Markdown and SAE to build your own Blog site
 
 1,  Download [Justwriting](https://github.com/hjue/JustWriting/zipball/master)
+
 2,  Unzip the package, edit the file settings.php
+
 3,  Visit [SAE](http://sae.sina.com.cn/), login(register if not) and create a new Application.
+
 4,  Check out the code repository, replace the following "<appID>" with your real appID, for example, "simpleblog", the username of svn asks is your email address when registering SAE, the password is your security password.
 ```sh
 svn co https://svn.sinaapp.com/<appID>
 ```
+
 5,  Check in your codes
 ```sh
 cd simpleblog

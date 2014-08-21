@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="phonecatApp">
+  <head>
+    <meta charset="UTF-8">
+    <title>Two Way Data Binding</title>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="js/controllers.js"></script>
+  </head>
+  <body ng-controller="PhoneListCtrl">
+    <div class="container">
+      Search: <input ng-model="query" />
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="age">Newest</option>
+      </select>
+
+      <ul class="phones">
+        <li ng-repeat="phone in phones | filter:query | orderBy:orderProp">
+          <span>{{phone.name}}</span>
+          <p>{{phone.snippet}}</p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

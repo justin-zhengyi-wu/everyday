@@ -1,0 +1,22 @@
+{
+  "name": "AngularTwoWayDataBinding",
+  "version": "0.0.1",
+  "description": "Learn Angular's two way data binding",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/karma/bin/karma start test/karma.conf.js"
+  },
+  "author": "Justin Wu<justin.zhengyi.wu@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.3.9",
+    "http-server": "^0.6.1",
+    "karma": "^0.12.22",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-jasmine": "^0.1.5",
+    "protractor": "^1.0.0",
+    "shelljs": "^0.3.0",
+    "tmp": "0.0.24"
+  }
+}

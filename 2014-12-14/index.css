@@ -1,0 +1,14 @@
+.container {
+    border: 1px solid blue;
+    margin: 100px;
+    overflow: auto;
+}
+#outer-container {
+    height: 1000px;
+}
+#inner-container {
+    height: 300px;
+}
+#inner-content {
+    height: 700px;
+}

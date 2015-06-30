@@ -51,3 +51,6 @@ function range2(start, end, step) {
     }
     return results;
 }
+
+console.log(range2(1, 10, 2));
+console.log(range2(5, 2, -1));
